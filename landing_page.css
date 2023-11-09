@@ -1,0 +1,115 @@
+/* Reset some default styles for browsers */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+section {
+    padding: 40px;
+}
+
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #0d0a0a;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#features {
+    background-color: #fff;
+}
+
+.feature {
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+}
+
+#faq {
+    background-color: #f0f0f0;
+    /* FAQ Item Styles */
+}
+
+.faq-item {
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+}
+
+#newsletter {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+#newsletter form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    /* Newsletter Input Styles */
+}
+
+#newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#newsletter button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
